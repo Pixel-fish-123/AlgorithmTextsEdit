@@ -1,0 +1,4 @@
+# Optional: PDF extraction for the appendix phase (P5).
+# Install only when needed:
+#   .\.venv\Scripts\python.exe -m pip install -r requirements-pdf.txt
+pdfplumber==0.11.9

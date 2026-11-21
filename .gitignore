@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Project-local toolchain (installed by tools/install_pandoc.ps1)
+tools/bin/pandoc/
+tools/bin/*.zip
+
+# Temporary files
+.tmp/
+*.tmp
+*.bak
+~$*.docx
+
+# Generated build outputs (regenerate with tools/build_docx.py)
+build/*
+!build/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
